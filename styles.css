@@ -42,11 +42,12 @@ html {
   width: fit-content;
 }
 .nav-name-logo {
-  width: 9rem;
+  width: 5rem;
+  height: 5rem;
 }
 .nav-name span {
-  margin-left: -1.9rem;
-  font-size: 2.8rem;
+  margin-left: -1.1rem;
+  font-size: 3.2rem;
 }
 .nav-items {
   display: flex;
@@ -59,6 +60,7 @@ html {
   font-size: 2.1rem;
   text-decoration: none;
   color: #000;
+  /* text-shadow: #000; */
 }
 .nav-item:hover {
   cursor: pointer;
@@ -309,7 +311,7 @@ button.button {
   height: fit-content;
 }
 .project {
-  background-image: url(./images/projects/Project1.png);
+  background-image: url(Sudoku.jpg);
   background-position: center 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -438,15 +440,15 @@ img[src="./images/stack/Git.svg"]:hover {
 
 /* ************* Project - 02 ******************* */
 .all-projects .project-02 {
-  background-image: url(./images/projects/Project2.png);
+  background-image: url(Razorpay.jpg);
   position: relative;
   left: 5.5%;
 }
 .project-03 {
-  background-image: url(./images/projects/Project3.png);
+  background-image: url(Product\ UI.png);
 }
 .project-04 {
-  background-image: url(./images/projects/Project4.png);
+  background-image: url(Resume.png);
   position: relative;
   left: 5.5%;
 }
